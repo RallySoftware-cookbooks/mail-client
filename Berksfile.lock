@@ -1,0 +1,1 @@
+cookbook 'mail-client', :path => '/Users/pairing/projects/chef-repo/cookbooks/mail-client'

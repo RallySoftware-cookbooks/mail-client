@@ -1,4 +1,13 @@
-mail-client
-===========
+# mail-client cookbook
 
-Installs command-line mail tools
+# Requirements
+
+# Usage
+
+# Attributes
+
+# Recipes
+
+# Author
+
+Author:: Rally Software Development Corp (<thefellowship@rallydev.com>)

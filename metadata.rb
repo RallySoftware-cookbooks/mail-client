@@ -12,3 +12,4 @@ supports 'ubuntu'
 supports 'centos'
 
 depends 'yum'
+depends 'apt'

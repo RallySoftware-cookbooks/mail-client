@@ -9,7 +9,7 @@ gem 'cookbook-development', :git => 'https://github.com/RallySoftware-cookbooks/
 gem "strainer", "~>2.1"
 gem "chefspec", "~> 1.2"
 # Waiting for a version with issue-143 to be released
-gem 'foodcritic', :git => 'https://github.com/acrmp/foodcritic.git', :ref => '209c01e8dc863a6e0b9b26fa187a0421df0f922f'>>>>>>> converting mail-client cookbook to use serverspec integration tests. Also changed all jackchop references to cookbook-development
+gem 'foodcritic', :git => 'https://github.com/acrmp/foodcritic.git', :ref => '209c01e8dc863a6e0b9b26fa187a0421df0f922f'
 
 # Workaround for json dependency for chef and berkshelf.  Chef
 # wants <= 1.7.7 and berkshelf >= 1.5 but bundler tries to grab 1.8.0

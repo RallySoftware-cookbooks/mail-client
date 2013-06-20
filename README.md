@@ -14,7 +14,7 @@ Tested on CentOS 6.4 and Ubuntu 12.04.
 Other
 -----
 
-This cookbook requires yum for installation.
+This cookbook requires yum for installation on centos and apt for installtion on debian.
 
 <<<<<<< HEAD
 Author:: Rally Software Development Corp (<rallysoftware-cookbooks@rallydev.com>)

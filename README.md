@@ -10,4 +10,4 @@
 
 # Author
 
-Author:: Rally Software Development Corp (<thefellowship@rallydev.com>)
+Author:: Rally Software Development Corp (<rallysoftware-cookbooks@rallydev.com>)

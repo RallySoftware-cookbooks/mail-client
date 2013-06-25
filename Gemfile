@@ -15,3 +15,8 @@ gem 'foodcritic', :git => 'https://github.com/acrmp/foodcritic.git', :ref => '20
 # wants <= 1.7.7 and berkshelf >= 1.5 but bundler tries to grab 1.8.0
 # which violates chef's requirement.  Seems like a bundler bug.
 gem "json", "1.7.7"
+
+group :integration do
+  gem 'test-kitchen', :git => 'https://github.com/RallySoftware-cookbooks/test-kitchen', :branch => 'KITCHEN-75'
+  gem 'kitchen-vagrant'
+end

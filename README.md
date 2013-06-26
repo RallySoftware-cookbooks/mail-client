@@ -16,9 +16,6 @@ Other
 
 This cookbook requires yum for installation on centos and apt for installtion on debian.
 
-<<<<<<< HEAD
-Author:: Rally Software Development Corp (<rallysoftware-cookbooks@rallydev.com>)
-=======
 Recipes
 =======
 

@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/RallySoftware-cookbooks/mail-client.png?branch=master)](https://travis-ci.org/RallySoftware-cookbooks/mail-client)
-
 Description
 ===========
 Installs the necessary packages for mail.

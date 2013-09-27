@@ -1,29 +1,16 @@
-Description
-===========
+## Description
 Installs the necessary packages for mail.
 
-Requirements
-============
+## Requirements
+### Platform
+* CentOS 6.4
+* Ubuntu 12.04
 
-Platform
---------
-Tested on CentOS 6.4 and Ubuntu 12.04.
-
-Other
------
-
-This cookbook requires yum for installation on centos and apt for installtion on debian.
-
-Recipes
-=======
-
-default
--------
-
+## Recipes
+### default
 Installs the mutt and alphine packages.
 
-License
-=======
+## License
 Copyright (c) Rally Software Development Corp. 2013
 
 Distributed under the MIT License.

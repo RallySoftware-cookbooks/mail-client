@@ -8,7 +8,7 @@ Installs the necessary packages for mail.
 
 ## Recipes
 ### default
-Installs the mutt and alphine packages.
+Installs the mutt and alpine packages.
 
 ## License
 Copyright (c) Rally Software Development Corp. 2013

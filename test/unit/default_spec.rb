@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
 
-describe 'mail-client::default' do
-  let (:chef_run) { ChefSpec::Runner.new.converge 'mail-client::default' }
+describe 'mail_client::default' do
+  let (:chef_run) { ChefSpec::Runner.new.converge 'mail_client::default' }
 
   it 'should do install mutt' do
     expect(chef_run).to install_package 'mutt'

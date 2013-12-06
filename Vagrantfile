@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
-  config.vm.hostname = "mail-client-berkshelf"
+  config.vm.hostname = "mail_client-berkshelf"
 
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "opscode-centos-6.4-x86_64"
@@ -71,7 +71,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision :chef_solo do |chef|
     chef.run_list = [
-        "recipe[mail-client::default]"
+        "recipe[mail_client::default]"
     ]
   end
 end

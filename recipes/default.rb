@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: mail-client
+# Cookbook Name:: mail_client
 # Recipe:: default
 #
 # Copyright (c) 2013 Rally Software Development Corp
@@ -26,9 +26,11 @@
 
 if node['platform_family'] == 'rhel'
   include_recipe 'yum::epel'
+  package 'mutt'
+  package 'alpine'
 elsif node['platform_family'] == 'debian'
   include_recipe 'apt'
+  package 'mutt'
 end
 
-package 'mutt'
-package 'alpine'
+

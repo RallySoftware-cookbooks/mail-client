@@ -11,5 +11,5 @@ recipe 'mail_client::default', 'Installs mutt and alpine'
 supports 'ubuntu'
 supports 'centos'
 
-depends 'yum', '~> 2.3'
-depends 'apt', '~> 2.1'
+depends 'yum-epel', '~> 0.2'
+depends 'apt', '~> 2.0'

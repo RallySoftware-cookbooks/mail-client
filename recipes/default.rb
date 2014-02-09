@@ -25,7 +25,7 @@
 #
 
 if node['platform_family'] == 'rhel'
-  include_recipe 'yum::epel'
+  include_recipe 'yum-epel'
   package 'mutt'
   package 'alpine'
 elsif node['platform_family'] == 'debian'

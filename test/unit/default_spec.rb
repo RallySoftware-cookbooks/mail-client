@@ -12,7 +12,7 @@ describe 'mail_client::default' do
     describe 'rhel' do
       let(:platform_family) { 'rhel' }
 
-      it { should include_recipe 'yum::epel' }
+      it { should include_recipe 'yum-epel' }
       it { should install_package 'mutt' }
       it { should install_package 'alpine' }
     end
